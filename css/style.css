@@ -1,11 +1,15 @@
-/*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
+/* Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.*/
 body {
   color: #444;
   font-size: 16px;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Gentium Book Basic', serif;
 }
 p {
   margin-bottom: .67em;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 nav, footer {
   background-color: #444;
