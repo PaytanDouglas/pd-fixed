@@ -1,5 +1,6 @@
 /* Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.*/
 body {
+  background-image: radial-gradient(#66FFB1, #5DBCE8);
   color: #444;
   font-family: 'Gentium Book Basic', serif;
   font-size: 16px;
@@ -13,10 +14,11 @@ nav {
   text-align: center;
 }
 nav, footer {
-  background-color: #444;
+  background-color: #51E8A9;
+  font-weight: bold;
 }
 footer {
-  color: #D0D0D0;
+  color: #72F7FF;
   padding: 1em 0 .3em 0;
   text-align: center;
 }
@@ -26,19 +28,23 @@ nav ul {
   padding: 1em;
 }
 .tab {
+  border:1px solid #72F7FF;
+  border-radius: 350px;
   margin-left: 10%;
   margin-right: 10%;
+  padding: .4em 1em .4em 1em;
 }
 nav a:link, nav a:visited {
-  color: #D0D0D0;
+  color: #72F7FF;
   text-decoration: none;
 }
-nav a:hover, nav a:active  {
-  color: #F0F0F0;
+nav a:hover {
+  color: #F3FF99;
   text-decoration: underline;
 }
-nav a.active {
-  color: #F0F0F0;
+nav a:active  {
+  color: #72F7FF;
+  text-decoration: underline;
 }
 /*-- Hero Unit Styles--*/
 header {
@@ -67,7 +73,7 @@ header h1 {
   width: 0.7em;
 }
 .small {
-  color: #FF9E3F;
+  color: #171DFF;
   font-family: "Lato", "sans-serif";
   font-size: 24px;
   font-style: normal;
@@ -100,9 +106,9 @@ article figcaption {
   width: 96%;
 }
 a.button {
-  border: 1px solid #888;
+  border: 1px solid #171DFF;
   border-radius: 200px;
-  color: #888;
+  color: #171DFF;
   font-family: 'Lato', sans-serif;
   font-size: 80%;
   font-weight: 300;
