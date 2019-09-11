@@ -8,9 +8,8 @@ p {
   margin-bottom: .67em;
 }
 nav {
-  display: flex;
   justify-content: space-around;
-  margin: 2em auto;
+  margin: auto;
   text-align: center;
 }
 nav, footer {
@@ -54,6 +53,14 @@ header h1 {
   padding: 0 auto;
   text-align: center;
   text-decoration: none;
+}
+.dropcap {
+  float: left;
+  font-family: "Lato", "sans-serif";
+  font-size: 300%;
+  font-weight: bold;
+  line-height: 80%;
+  width: 0.7em;
 }
 .small {
   color: #FF9E3F;
