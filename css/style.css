@@ -61,6 +61,7 @@ header h1 {
   font-weight: 900;
   margin-top: 1em;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 /*-- Article Styles--*/
 article {
@@ -70,10 +71,14 @@ article {
   width: 768px;
 }
 article figure {
+  float: right;
   margin: 0 0 1.25em 1.25em;
   width: 39%;
 }
 article figcaption {
+  font-family: "Arial", "serif";
+  font-size: 9pt;
+  font-weight: lighter;
 }
 .pagination {
   margin-top: 2em;
